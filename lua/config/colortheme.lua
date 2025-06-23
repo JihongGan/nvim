@@ -1,8 +1,5 @@
-require("one_monokai").setup({
-  transparent = false,
-  colors = {},
-  themes = function(colors)
-    return {}
-  end,
-  italics = true,
+require('catppuccin').setup({
+  flavour = 'mocha', -- latte, frappe, macchiato, mocha
 })
+
+vim.cmd("colorscheme catppuccin")
